@@ -1,0 +1,28 @@
+.header {
+    background-color: #fff;
+  
+    &__wrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    &__search {
+      width: 60%;
+      height: 60%;
+    }
+  
+    &__text {
+      text-shadow: 1px 1px white, 2px 2px #777;
+      color: #333;
+      transition: all 1s;
+      font-size: 24 / 16 * 1rem;
+  
+      &:hover {
+        text-shadow: 1px 1px white, 2px 2px tomato;
+        color: crimson;
+        cursor: pointer;
+      }
+    }
+  }

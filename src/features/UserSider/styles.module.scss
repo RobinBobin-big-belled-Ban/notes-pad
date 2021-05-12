@@ -1,0 +1,15 @@
+.menu {
+    background-color: inherit;
+    color: #fff;
+  }
+  
+  .menu .link {
+    background-color: inherit;
+    color: #fff;
+  
+    &:hover,
+    &:active,
+    &:focus {
+      color: #1e90ff;
+    }
+  }

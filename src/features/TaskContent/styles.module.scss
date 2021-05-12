@@ -1,0 +1,12 @@
+.content {
+  display: grid;
+  grid-template-rows: 34 / 16 * 1rem auto;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.text-header {
+  font-size: 22 / 16 * 1rem;
+  color: tomato;
+  text-shadow: 1px 1px 1px gray;
+}

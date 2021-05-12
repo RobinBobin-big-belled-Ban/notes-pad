@@ -1,0 +1,21 @@
+.input-error {
+  border-color: tomato;
+
+  &:active,
+  &:hover,
+  &:focus {
+    border-color: tomato;
+  }
+}
+
+.form-header {
+  font-size: 18 / 16 * 1rem;
+  color: #5275b6;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.form {
+  width: 90%;
+  border-radius: 8px;
+  padding: 1rem;
+}
